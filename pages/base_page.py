@@ -31,7 +31,7 @@ class BasePage(object):
 
     def is_element_present_by_css(self, css_selector):
         try:
-            self.find_element_by_css(css_selector)
+            self.find_ele_by_css(css_selector)
             # print("is_element_present_by_css + css_selector)
             return True
         except exceptions.NoSuchElementException as ex:
